@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WP API Decoupled Demo</title>
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link rel="stylesheet" href="https://api-demo.dev/wp-content/themes/apidemo/style.css">
+	</head>
+	<body>
+		<div id="page">
+
+			<header id="masthead" class="site-header">
+				<div class="site-branding">
+					<form class="login" action="" method="post">
+						<input class="button" type="submit" name="" value="Login">
+					</form>
+					<form class="logout" action="" method="post">
+						<input class="button" type="submit" name="" value="Logout">
+					</form>
+					<h1 class="site-title"><a href="/">Decoupled WordPress</a></h1>
+					<p class="site-description">Using JavaScript, OAuth1 and TinyMCE</p>
+				</div>
+			</header>
+
+			<div id="content">
+
+					<div id="secondary">
+						<form class="add-post hidden" action="" method="post">
+							<h3 class="add-new-post">Add New Post</h3>
+							<h3><input class="title-editor" type="text" name="title" placeholder="Enter title here" value=""></h3>
+							 <textarea id="content-editor"></textarea>
+							<p><input class="button" type="submit" name="" value="Save"></p>
+						</form>
+					</div>
+
+					<div id="primary">
+						<main id="main">
+						</main>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="/dist/tinymce/js/tinymce/tinymce.min.js"></script>
+	<script src="bundle.min.js" charset="utf-8"></script>
+</html>
