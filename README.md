@@ -1,5 +1,5 @@
-# wp-oauth-demo
-A demo decoupled JS app using OAuth and WordPress.
+# WP API OAuth Demo with JavaScript
+A simple demo JavaScript app using OAuth and WordPress.
 
 ## Setup
 
