@@ -1,4 +1,4 @@
-import authentication from './components/authentication';
+import authentication from './authentication';
 import listPosts from './components/listPosts';
 
 const app = {};

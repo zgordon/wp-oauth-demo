@@ -1,9 +1,9 @@
 import 'whatwg-fetch';
 import Cookies from 'js-cookie';
-import config from '../config';
+import config from './config';
 import api from 'wordpress-rest-api-oauth-1';
-import listPosts from './listPosts';
-import message from './message';
+import listPosts from './components/listPosts';
+import message from './components/message';
 
 
 let authentication = {},

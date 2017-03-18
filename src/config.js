@@ -7,7 +7,7 @@ const config = {
 	articleContainer: document.querySelector('main#main'),
 	message: document.querySelector('#message'),
 	successMessage: 'Post saved!',
-	apiRoot: 'https://api-demo.dev/wp-json/',
+	apiRoot: 'https://api-test.dev/wp-json/',
 	tinymceConfig: {
 	  selector: '#content-editor',
 		content_style: 'body {background: #fff !important; padding: 5px 10px}',
